@@ -1,0 +1,676 @@
+{
+  "pages": [
+    {
+      "pageKey": "about/security",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 13
+    },
+    {
+      "pageKey": "blog",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "careers",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 17
+    },
+    {
+      "pageKey": "contact",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 3,
+      "executableScriptCount": 26
+    },
+    {
+      "pageKey": "ecommerce-shipping",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 17
+    },
+    {
+      "pageKey": "home-decor-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 17
+    },
+    {
+      "pageKey": "home-improvement-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 19
+    },
+    {
+      "pageKey": "hot-shot-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 17
+    },
+    {
+      "pageKey": "index",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 24
+    },
+    {
+      "pageKey": "industries/auto-parts-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 17
+    },
+    {
+      "pageKey": "industries/construction-supplies-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 17
+    },
+    {
+      "pageKey": "industries/grocery-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 17
+    },
+    {
+      "pageKey": "industries/industrial-suppliers",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 17
+    },
+    {
+      "pageKey": "industries/lost-luggage-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 19
+    },
+    {
+      "pageKey": "industries/prescription-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 19
+    },
+    {
+      "pageKey": "industries/retail-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "last-mile-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 19
+    },
+    {
+      "pageKey": "pet-supply-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 19
+    },
+    {
+      "pageKey": "press-releases",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/author/admin",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/author/admin/page/1",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/author/admin/page/2",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/author/admin/page/3",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/author/admin/page/4",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/author/admin/page/5",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/author/heather-hughes",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/benjamin-moore-expands-partnership-with-roadie-to-accelerate-paint-delivery-for-diyers-and-professionals",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/blains-farm-fleet-improves-customer-experience-and-sales-with-roadie-same-day-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/delta-cargo-dash-door-to-door",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/delta-delivery-expansion",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/delta-roadie-partnership",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/doorstep-delivery-with-zero-contact",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/ey-announces-marc-gorlin-of-roadie-as-an-entrepreneur-of-the-year-2021-national-award-winner",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/ey-announces-marc-gorlin-of-roadie-as-an-entrepreneur-of-the-year-2021-southeast-award-winner",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/fresh-air-on-demand-roadie-partners-with-filterbuy-to-deliver-high-quality-air-filters-same-day-nationwide",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/goodr-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/goodwill-roadie-partnership",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/home-depot-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/home-depot-names-roadie-carrier-of-the-year",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/its-scary-fast-spirit-halloween-teams-up-with-roadie-for-same-day-delivery-launch",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/maven-gig-roadie",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/neighborliness-goes-national",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/page/1",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/page/2",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/page/3",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/page/4",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/page/5",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/revolutionizing-logistics-roadie-unveils-roadiexd-solution-to-supercharge-efficiency-speed-and-simplicity-for-big-bulky-deliveries",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-and-fanatics-team-up-on-local-next-day-delivery-to-sports-fans",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-enables-bouqs-to-flex-same-day-delivery-capacity-for-44-holiday-order-increase",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-helping-roadies-crowdsourced-delivery-platform-teams-up-with-crew-nation-to-help-live-music-crews",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-investment-home-depot",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-launches-web",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-ludacris-shipping-community",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-named-ajc-top-workplace-for-third-year-in-a-row",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-nccf-partnership",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-provides-free-shipping-on-items-to-and-from-baton-rouge-to-aid-flood-victims",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-ranks-no-203-on-2021-inc-5000-list-of-americas-fastest-growing-private-companies",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-red-herring-short-list",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-red-herring-winner",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-rentus-partnership",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-reports-demand-for-same-day-delivery-surges-amid-covid-19-pandemic",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-reports-retail-and-supply-chain-leaders-say-ultrafast-delivery-is-the-future-of-last-mile",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-series-a",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-series-b",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-survey-finds-36-7-of-retailers-restrict-oversized-item-delivery-even-as-demand-grows",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-survey-finds-80-of-companies-increase-revenue-with-same-day-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-survey-finds-flexibility-reigns-supreme-for-gig-workers-choosing-side-hustles",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/roadie-unlocks-faster-than-ever-home-delivery-for-retailers-with-roadie-direct-warehouse-delivery-just-in-time-for-peak-season",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/stride-and-roadie-partner-to-empower-drivers-with-financial-tool",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/tag/about-roadie",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/tag/press-release",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 20
+    },
+    {
+      "pageKey": "press-releases/tractor-supply-becomes-first-general-merchandise-retailer-to-launch-same-day-delivery-from-100-of-stores",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/ups-capital-insurance-solution-roadie-shipments",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "press-releases/walmart-grocery-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 22
+    },
+    {
+      "pageKey": "privacy",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 13
+    },
+    {
+      "pageKey": "rental-equipment-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 17
+    },
+    {
+      "pageKey": "resources",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 14
+    },
+    {
+      "pageKey": "resources/case-studies",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 18
+    },
+    {
+      "pageKey": "resources/case-studies/author/roadie",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 18
+    },
+    {
+      "pageKey": "resources/case-studies/nothing-bundt-cakes-increases-sales-by-expanding-delivery-nationwide",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/case-studies/pinch-grow-reach-sales-local-healthcare-roadie",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/case-studies/roadie-enables-scriptdrop-to-increase-delivery-volume-in-hard-to-reach-areas",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/case-studies/roadie-helps-top-u-s-airline-scale-delivery-capacity-by-600-in-real-time",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/case-studies/tag/case-study",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 18
+    },
+    {
+      "pageKey": "resources/case-studies/the-home-depot-rapidly-scales-same-day-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/case-studies/tractor-supply-company-delivers-same-day-from-100-of-stores",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/white-papers/2022-last-mile-outlook-the-future-of-crowdsourced-delivery",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/white-papers/22003",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 2,
+      "executableScriptCount": 21
+    },
+    {
+      "pageKey": "resources/white-papers/4-ways-to-optimize-returns-with-crowdsourcing",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 14
+    },
+    {
+      "pageKey": "resources/white-papers/a-greener-last-mile-starts-now-your-guide-to-reducing-delivery-emissions-ent",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 14
+    },
+    {
+      "pageKey": "resources/white-papers/building-a-solid-financial-case-for-same-day-delivery-ent",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/white-papers/closing-warehouse-fulfillment-gaps-with-crowdsourced-delivery",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/white-papers/consumers-on-same-day-delivery-what-they-want-and-what-they-will-pay-for",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/white-papers/deliver-oversized-items-same-day-with-ease",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/white-papers/expectations-vs-reality-the-surprising-performance-gap-of-non-traditional-last-mile-delivery",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/white-papers/how-crowdsourced-delivery-can-help-businesses-win-and-keep-customers-in-the-last-mile",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 14
+    },
+    {
+      "pageKey": "resources/white-papers/research-report-is-same-day-delivery-worth-the-hype",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/white-papers/why-crowdsourcing-is-the-secret-to-winning-with-bodfs",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 14
+    },
+    {
+      "pageKey": "resources/white-papers/why-warehouses-are-the-key-to-your-same-day-fulfillment-strategy",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 16
+    },
+    {
+      "pageKey": "resources/white-papers/your-guide-to-using-crowdsourcing-for-better-faster-always-on-returns",
+      "midBodyScriptRisk": false,
+      "executableScriptsBeforeFooter": 0,
+      "executableScriptCount": 14
+    },
+    {
+      "pageKey": "same-day-delivery-roi-calculator-roadie",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 2,
+      "executableScriptCount": 14
+    },
+    {
+      "pageKey": "sign-up-log-in",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 12
+    },
+    {
+      "pageKey": "solutions/big-bulky-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 19
+    },
+    {
+      "pageKey": "solutions/next-day-delivery",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 17
+    },
+    {
+      "pageKey": "solutions/reverse-logistics-management",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 15
+    },
+    {
+      "pageKey": "solutions/roadie-for-ups",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 15
+    },
+    {
+      "pageKey": "solutions/roadie-same-day",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 19
+    },
+    {
+      "pageKey": "solutions/roadiexd",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 15
+    },
+    {
+      "pageKey": "solutions/same-day",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 19
+    },
+    {
+      "pageKey": "solutions/ship-from-store",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 19
+    },
+    {
+      "pageKey": "terms",
+      "midBodyScriptRisk": true,
+      "executableScriptsBeforeFooter": 1,
+      "executableScriptCount": 13
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "pageKey": "same-day-delivery-roi-calculator-roadie",
+  "sitePath": "same-day-delivery-roi-calculator-roadie.html",
+  "bodyAttrs": " class=\"  hs-content-id-188974834203 hs-site-page page    _themeClass\"",
+  "midBodyScriptRisk": true,
+  "executableScriptsBeforeFooter": 2,
+  "executableScriptCountInBody": 14,
+  "entries": [
+    {
+      "kind": "inline",
+      "source": "\n\n        window.addEventListener('message', function(event) {\n\n            if (event.origin !== 'https://same-day-delivery-roi-calculator.netlify.app') {\n\n                console.warn('Origin not allowed:', event.origin);\n\n                return;\n\n            }\n\n \n\n            var iframe = document.getElementById('sidIframe');\n\n            if (iframe && event.data.height) {\n\n                iframe.style.height = event.data.height + 'px';\n\n            }\n\n        }, false);\n\n    "
+    },
+    {
+      "kind": "inline",
+      "source": "\n  window.addEventListener('DOMContentLoaded', function() {\n    // Find all links that point to \"#cookie-settings\"\n    var cookieLinks = document.querySelectorAll('a[href*=\"#cookie-settings\"]');\n\n    // Loop through them (in case you have it in mobile and desktop menus)\n    cookieLinks.forEach(function(link) {\n      link.addEventListener('click', function(event) {\n        // Stop the link from jumping the page\n        event.preventDefault(); \n        \n        // Open OneTrust\n        if (typeof OneTrust !== 'undefined') {\n            OneTrust.ToggleInfoDisplay();\n        } else {\n            console.log(\"OneTrust not loaded\");\n        }\n      });\n    });\n  });\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/hsstatic/content-cwv-embed/static-1.1293/embed.js",
+      "async": false,
+      "defer": true,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar hsVars = hsVars || {}; hsVars['language'] = 'en';\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/hsstatic/cos-i18n/static-1.53/bundles/project.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186575003823/1774535259854/template_jquery.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186575003821/1774535261293/template_aos.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186573512551/1774535260802/template_main.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/module_assets/1/186574315053/1748023808410/module_u4m-mega-menu.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/module_assets/1/186575003801/1745817237649/module_u4m-hero.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar _hsq = _hsq || [];\n_hsq.push([\"setContentType\", \"standard-page\"]);\n_hsq.push([\"setCanonicalUrl\", \"https:\\/\\/www.roadie.com\\/same-day-delivery-roi-calculator-roadie\"]);\n_hsq.push([\"setPageId\", \"188974834203\"]);\n_hsq.push([\"setContentMetadata\", {\n    \"contentPageId\": 188974834203,\n    \"legacyPageId\": \"188974834203\",\n    \"contentFolderId\": null,\n    \"contentGroupId\": null,\n    \"abTestId\": null,\n    \"languageVariantId\": 188974834203,\n    \"languageCode\": \"en\",\n    \n    \n}]);\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/scriptloader/46302491.js",
+      "async": true,
+      "defer": true,
+      "type": "text/javascript",
+      "id": "hs-script-loader",
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar hsVars = {\n    render_id: \"faace0c8-39b8-4421-ae41-3e52443dc5b6\",\n    ticks: 1775531689079,\n    page_id: 188974834203,\n    \n    content_group_id: 0,\n    portal_id: 46302491,\n    app_hs_base_url: \"https://app.hubspot.com\",\n    cp_hs_base_url: \"https://cp.hubspot.com\",\n    language: \"en\",\n    analytics_page_type: \"standard-page\",\n    scp_content_type: \"\",\n    \n    analytics_page_id: \"188974834203\",\n    category_id: 1,\n    folder_id: 0,\n    is_hubspot_user: false\n}\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js",
+      "async": false,
+      "defer": true,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    }
+  ]
+}

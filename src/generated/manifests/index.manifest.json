@@ -1,0 +1,213 @@
+{
+  "pageKey": "index",
+  "sitePath": "index.html",
+  "bodyAttrs": " class=\"  hs-content-id-187444183433 hs-site-page page    _themeClass\"",
+  "midBodyScriptRisk": true,
+  "executableScriptsBeforeFooter": 1,
+  "executableScriptCountInBody": 24,
+  "entries": [
+    {
+      "kind": "inline",
+      "source": "\n  window.addEventListener('DOMContentLoaded', function() {\n    // Find all links that point to \"#cookie-settings\"\n    var cookieLinks = document.querySelectorAll('a[href*=\"#cookie-settings\"]');\n\n    // Loop through them (in case you have it in mobile and desktop menus)\n    cookieLinks.forEach(function(link) {\n      link.addEventListener('click', function(event) {\n        // Stop the link from jumping the page\n        event.preventDefault(); \n        \n        // Open OneTrust\n        if (typeof OneTrust !== 'undefined') {\n            OneTrust.ToggleInfoDisplay();\n        } else {\n            console.log(\"OneTrust not loaded\");\n        }\n      });\n    });\n  });\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/hsstatic/content-cwv-embed/static-1.1293/embed.js",
+      "async": false,
+      "defer": true,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar hsVars = hsVars || {}; hsVars['language'] = 'en';\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/hsstatic/cos-i18n/static-1.53/bundles/project.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186575003823/1774535259854/template_jquery.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186575003821/1774535261293/template_aos.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186573512551/1774535260802/template_main.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/module_assets/1/186574315053/1748023808410/module_u4m-mega-menu.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/module_assets/1/186575003801/1745817237649/module_u4m-hero.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/js.hubspot.com/web-interactives-embed.js",
+      "async": false,
+      "defer": true,
+      "type": "text/javascript",
+      "id": "hubspot-web-interactives-loader",
+      "charset": null,
+      "attribs": {
+        "data-loader": "hs-previewer",
+        "data-hsjs-portal": "46302491",
+        "data-hsjs-env": "prod",
+        "data-hsjs-hublet": "na1"
+      }
+    },
+    {
+      "kind": "external",
+      "src": "/cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": " \n      document.addEventListener( 'DOMContentLoaded', function() {\n        new Splide( '.widget_1740774111878 .splide', {\n          type: 'loop',\n          easing: 'ease-in-out',\n          pagination: false,\n          pauseOnHover: true,\n          perPage: 3,\n          arrows: false,\n          gap: \"20rem\",\n          autoScroll:{\n            autoStart: true,\n            speed: .25,\n          },\n          breakpoints: {\n            768: {\n              perPage: 3,\n            },\n            640: {\n              perPage: 3,\n            },\n            480: {\n              perPage: 2,\n            },\n          },\n        }).mount( window.splide.Extensions );\n      });\n\n    "
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186574315065/1774535261467/template_waypoint.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186575003819/1774535259809/template_counterUp.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/module_assets/1/199505374495/1771616902138/module_u4m-hero-zip-code.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\n  $(document).ready(function(){\n    $('.u4m-hero-zip-code-checker.module_17684036482675 .counter').each(function(){\n      var $counter = $(this);\n      var fullValue = $counter.data('full-value') || $counter.text();\n      \n      // Extract numeric part and suffix\n      var match = fullValue.match(/^([0-9,]+)(.*)$/);\n      if (!match) {\n        // If no match, try to extract just numbers\n        var numMatch = fullValue.match(/([0-9,]+)/);\n        if (numMatch) {\n          var numericPart = numMatch[1];\n          var suffix = fullValue.replace(numericPart, '');\n          $counter.data('suffix', suffix);\n          $counter.text(numericPart);\n        }\n      } else {\n        var numericPart = match[1];\n        var suffix = match[2] || '';\n        $counter.data('suffix', suffix);\n        $counter.text(numericPart);\n      }\n      \n      // Initialize counterUp with formatter to append suffix\n      $counter.counterUp({\n        delay: 10,\n        time: 2000,\n        formatter: function(n) {\n          var suffix = $counter.data('suffix') || '';\n          // Preserve commas in the number\n          var numStr = n.toString();\n          if (fullValue.indexOf(',') !== -1 && numStr.indexOf(',') === -1) {\n            numStr = numStr.replace(/\\B(?=(\\d{3})+(?!\\d))/g, ',');\n          }\n          return numStr + suffix;\n        }\n      });\n    });\n  });\n"
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/module_assets/1/186574315062/1762893309048/module_u4m-top-tab.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186573512559/1774535260340/template_splide.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\n  var splidemodule = new Splide('.widget_1740774366138 .splide', { \n      type: 'loop',   \n      perPage: 1.5,\n      perMove: 1,\n      arrows: true,\n      autoplay: true,\n      interval: 4000,\n      autoHeight: true,\n      focus: 0,  // Align slides to the left\n      gap: 40, // Ensure gap is correctly applied\n\n      breakpoints: {\n      767: { \n      perPage: 1, // Show 1 slide on smaller screens\n      gap: 20, // Reduce gap for mobile\n      }\n  }\n  });\n\n  splidemodule.mount();\n\n\n\n\n  function rowAlignment() {\n    let container = document.querySelector('header.header .page-center');\n    let row = document.querySelector('.cmCardSlider .full_width .flx');\n\n    if (!container || !row) return; // Ensure elements exist before proceeding\n\n    let windowWidth = document.documentElement.clientWidth; // Use clientWidth for consistency\n    let containerWidth = container.offsetWidth;\n    let padding = (windowWidth - containerWidth) / 2;\n\n    row.style.paddingLeft = `${Math.max(0, padding)}px`; // Prevent negative values\n  }\n\n  window.addEventListener(\"load\", rowAlignment);\n  window.addEventListener(\"resize\", rowAlignment);\n\n\n"
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar _hsq = _hsq || [];\n_hsq.push([\"setContentType\", \"standard-page\"]);\n_hsq.push([\"setCanonicalUrl\", \"https:\\/\\/www.roadie.com\"]);\n_hsq.push([\"setPageId\", \"187444183433\"]);\n_hsq.push([\"setContentMetadata\", {\n    \"contentPageId\": 187444183433,\n    \"legacyPageId\": \"187444183433\",\n    \"contentFolderId\": null,\n    \"contentGroupId\": null,\n    \"abTestId\": null,\n    \"languageVariantId\": 187444183433,\n    \"languageCode\": \"en\",\n    \n    \n}]);\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/scriptloader/46302491.js",
+      "async": true,
+      "defer": true,
+      "type": "text/javascript",
+      "id": "hs-script-loader",
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar hsVars = {\n    render_id: \"d53773ee-cf0e-46ec-a668-c0aab0208ca3\",\n    ticks: 1775531691289,\n    page_id: 187444183433,\n    \n    content_group_id: 0,\n    portal_id: 46302491,\n    app_hs_base_url: \"https://app.hubspot.com\",\n    cp_hs_base_url: \"https://cp.hubspot.com\",\n    language: \"en\",\n    analytics_page_type: \"standard-page\",\n    scp_content_type: \"\",\n    \n    analytics_page_id: \"187444183433\",\n    category_id: 1,\n    folder_id: 0,\n    is_hubspot_user: false\n}\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js",
+      "async": false,
+      "defer": true,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    }
+  ]
+}

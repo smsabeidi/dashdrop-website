@@ -1,0 +1,10 @@
+{
+  "total_html_files": 954,
+  "canonical_unique_pages": 560,
+  "duplicates_collapsed": 394,
+  "outputs": {
+    "all_pages": "all-pages.txt",
+    "canonical_urls": "canonical-urls.txt",
+    "dedupe_report": "canonical-dedupe-report.csv"
+  }
+}

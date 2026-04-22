@@ -1,0 +1,164 @@
+{
+  "pageKey": "press-releases",
+  "sitePath": "press-releases.html",
+  "bodyAttrs": " class=\"  hs-content-id-188994068550 hs-blog-listing hs-blog-id-188994068548   _themeClass\"",
+  "midBodyScriptRisk": true,
+  "executableScriptsBeforeFooter": 1,
+  "executableScriptCountInBody": 20,
+  "entries": [
+    {
+      "kind": "inline",
+      "source": "\n  window.addEventListener('DOMContentLoaded', function() {\n    // Find all links that point to \"#cookie-settings\"\n    var cookieLinks = document.querySelectorAll('a[href*=\"#cookie-settings\"]');\n\n    // Loop through them (in case you have it in mobile and desktop menus)\n    cookieLinks.forEach(function(link) {\n      link.addEventListener('click', function(event) {\n        // Stop the link from jumping the page\n        event.preventDefault(); \n        \n        // Open OneTrust\n        if (typeof OneTrust !== 'undefined') {\n            OneTrust.ToggleInfoDisplay();\n        } else {\n            console.log(\"OneTrust not loaded\");\n        }\n      });\n    });\n  });\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/hsstatic/content-cwv-embed/static-1.1293/embed.js",
+      "async": false,
+      "defer": true,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar hsVars = hsVars || {}; hsVars['language'] = 'en';\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/hsstatic/cos-i18n/static-1.53/bundles/project.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186575003823/1774535259854/template_jquery.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186575003821/1774535261293/template_aos.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186573512551/1774535260802/template_main.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/module_assets/1/186574315053/1748023808410/module_u4m-mega-menu.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186575003825/1774535260956/template_masonry.pkgd.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/module_assets/1/186571554113/1762893309440/module_u4m-blog-listing.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\n  (function($, undefined) {\n    $.extend($.infinitescroll.prototype,{\n\n      _setup_twitter: function infscr_setup_twitter () {\n        var opts = this.options,\n            instance = this;\n\n        // Bind nextSelector link to retrieve\n        $(opts.nextSelector).click(function(e) {\n          if (e.which == 1 && !e.metaKey && !e.shiftKey) {\n            e.preventDefault();\n            instance.retrieve();\n\n            setTimeout(function(){\n              $('body').find('#infscr-loading').remove();\n            },1);\n          }\n        });\n\n        // Define loadingStart to never hide pager\n        instance.options.loading.start = function (opts) {\n          opts.loading.msg\n            .appendTo(opts.loading.selector)\n            .show(opts.loading.speed, function () {\n            instance.beginAjax(opts);\n          });\n        }\n      },\n      _showdonemsg_twitter: function infscr_showdonemsg_twitter () {\n        var opts = this.options,\n            instance = this;\n\n        //Do all the usual stuff\n        opts.loading.msg\n          .find('img')\n          .hide()\n          .parent()\n          .find('div').html(opts.loading.finishedMsg).animate({ opacity: 1 }, 2000, function () {\n          $(this).parent().fadeOut('normal');\n        });\n\n        //And also hide the navSelector\n        $(opts.navSelector).fadeOut('normal');\n\n        // user provided callback when done\n        opts.errorCallback.call($(opts.contentSelector)[0],'done');\n\n      }\n\n    });\n  })(jQuery);\n\n  /**\n * Infinite Scroll + Masonry + ImagesLoaded\n */\n\n  (function() {\n\n    // Main content container\n    var $container =  $('.listing-wrap .cardItems');\n\n    // Infinite Scroll\n    $container.infinitescroll({\n\n      // selector for the paged navigation (it will be hidden)\n      navSelector  : \".blog-pagination\",\n      // selector for the NEXT link (to page 2)\n      nextSelector : \".load-more\",\n      // selector for all items you'll retrieve\n      itemSelector : \".listing-wrap .cardItems > .cardItem\",\n      behavior     : 'twitter',\n\n      // finished message\n      loading: {\n        finishedMsg: 'No more pages to load.'\n      }\n    },\n\n                              // Trigger Masonry as a callback\n                              function( newElements ) {\n      // hide new items while they are loading\n      var $newElems = $( newElements ).css({ opacity: 0 });\n      // ensure that images load before adding to masonry layout\n      $newElems.imagesLoaded(function(){\n        // show elems now they're ready\n        $newElems.animate({ opacity: 1 });\n        $container.masonry( 'appended', $newElems, true );\n      });\n\n    });\n\n    nx= $('a.next-posts-link').attr('data-total-page-count'); \n    nx = parseInt(nx);\n    nxc = 2;\n    $('a.load-more').click( function(){\n      nxc < nx ? nxc+=1 : $(this).fadeOut()\n    })\n\n\n  })();\n"
+    },
+    {
+      "kind": "external",
+      "src": "https://js.hsforms.net/forms/v2-legacy.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": "utf-8",
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "_hcms/forms/v2.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {
+        "data-hs-allowed": "true"
+      }
+    },
+    {
+      "kind": "inline",
+      "source": "\n        var options = {\n            portalId: '46302491',\n            formId: 'd7d26acd-fd95-43ee-b785-983bc0505ee9',\n            formInstanceId: '1206',\n            \n            pageId: '188994068548',\n            \n            region: 'na1',\n            \n            \n            \n            \n            \n            \n            inlineMessage: \"Thank you for signing up!\",\n            \n            \n            rawInlineMessage: \"Thank you for signing up!\",\n            \n            \n            hsFormKey: \"e34c7a1e952d164bd2cb03d9599a08c3\",\n            \n            \n            css: '',\n            target: '#hs_form_target_form_651265746',\n            \n            \n            \n            \n            \n            \n            \n            contentType: \"listing-page\",\n            \n            \n            \n            formsBaseUrl: '/_hcms/forms/',\n            \n            \n            \n            formData: {\n                cssClass: 'hs-form stacked hs-custom-form'\n            }\n        };\n\n        options.getExtraMetaDataBeforeSubmit = function() {\n            var metadata = {};\n            \n\n            if (hbspt.targetedContentMetadata) {\n                var count = hbspt.targetedContentMetadata.length;\n                var targetedContentData = [];\n                for (var i = 0; i < count; i++) {\n                    var tc = hbspt.targetedContentMetadata[i];\n                     if ( tc.length !== 3) {\n                        continue;\n                     }\n                     targetedContentData.push({\n                        definitionId: tc[0],\n                        criterionId: tc[1],\n                        smartTypeId: tc[2]\n                     });\n                }\n                metadata[\"targetedContentMetadata\"] = JSON.stringify(targetedContentData);\n            }\n\n            return metadata;\n        };\n\n        hbspt.forms.create(options);\n    "
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar _hsq = _hsq || [];\n_hsq.push([\"setContentType\", \"listing-page\"]);\n_hsq.push([\"setCanonicalUrl\", \"https:\\/\\/www.roadie.com\\/press-releases\"]);\n_hsq.push([\"setPageId\", \"188994068550\"]);\n_hsq.push([\"setContentMetadata\", {\n    \"contentPageId\": 188994068550,\n    \"legacyPageId\": \"188994068550\",\n    \"contentFolderId\": null,\n    \"contentGroupId\": 188994068548,\n    \"abTestId\": null,\n    \"languageVariantId\": 188994068550,\n    \"languageCode\": \"en\",\n    \n    \n}]);\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/scriptloader/46302491.js",
+      "async": true,
+      "defer": true,
+      "type": "text/javascript",
+      "id": "hs-script-loader",
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar hsVars = {\n    render_id: \"3bbd954b-4e3c-4a2c-a050-de615dddee47\",\n    ticks: 1775531692415,\n    page_id: 188994068550,\n    \n    content_group_id: 188994068548,\n    portal_id: 46302491,\n    app_hs_base_url: \"https://app.hubspot.com\",\n    cp_hs_base_url: \"https://cp.hubspot.com\",\n    language: \"en\",\n    analytics_page_type: \"listing-page\",\n    scp_content_type: \"\",\n    \n    analytics_page_id: \"188994068550\",\n    category_id: 7,\n    folder_id: 0,\n    is_hubspot_user: false\n}\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js",
+      "async": false,
+      "defer": true,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "(function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n  js.src = \"//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0\";\n  fjs.parentNode.insertBefore(js, fjs);\n }(document, 'script', 'facebook-jssdk'));"
+    },
+    {
+      "kind": "inline",
+      "source": "!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"https://platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");"
+    }
+  ]
+}

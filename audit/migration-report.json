@@ -1,0 +1,280 @@
+{
+  "generatedAt": "2026-04-21T20:39:46.954Z",
+  "coverage": {
+    "htmlFilesAnalyzedNonBlog": 174,
+    "pagesMigrated": 112,
+    "pagesSkipped": 62,
+    "countsByCategory": {
+      "risk_excluded": 2,
+      "canonical": 112,
+      "query_or_amp_duplicate": 59,
+      "generated_shell": 1
+    }
+  },
+  "templateClusters": [
+    {
+      "pageCount": 42,
+      "samplePaths": [
+        "press-releases/benjamin-moore-expands-partnership-with-roadie-to-accelerate-paint-delivery-for-diyers-and-professionals.html",
+        "press-releases/blains-farm-fleet-improves-customer-experience-and-sales-with-roadie-same-day-delivery.html",
+        "press-releases/delta-cargo-dash-door-to-door.html"
+      ]
+    },
+    {
+      "pageCount": 9,
+      "samplePaths": [
+        "press-releases/author/admin.html",
+        "press-releases/author/heather-hughes.html",
+        "press-releases/page/1.html"
+      ]
+    },
+    {
+      "pageCount": 8,
+      "samplePaths": [
+        "resources/white-papers/2022-last-mile-outlook-the-future-of-crowdsourced-delivery.html",
+        "resources/white-papers/building-a-solid-financial-case-for-same-day-delivery-ent.html",
+        "resources/white-papers/closing-warehouse-fulfillment-gaps-with-crowdsourced-delivery.html"
+      ]
+    },
+    {
+      "pageCount": 5,
+      "samplePaths": [
+        "press-releases/author/admin/page/1.html",
+        "press-releases/author/admin/page/2.html",
+        "press-releases/author/admin/page/3.html"
+      ]
+    },
+    {
+      "pageCount": 5,
+      "samplePaths": [
+        "resources/case-studies/nothing-bundt-cakes-increases-sales-by-expanding-delivery-nationwide.html",
+        "resources/case-studies/roadie-enables-scriptdrop-to-increase-delivery-volume-in-hard-to-reach-areas.html",
+        "resources/case-studies/roadie-helps-top-u-s-airline-scale-delivery-capacity-by-600-in-real-time.html"
+      ]
+    },
+    {
+      "pageCount": 5,
+      "samplePaths": [
+        "resources/white-papers/4-ways-to-optimize-returns-with-crowdsourcing.html",
+        "resources/white-papers/a-greener-last-mile-starts-now-your-guide-to-reducing-delivery-emissions-ent.html",
+        "resources/white-papers/how-crowdsourced-delivery-can-help-businesses-win-and-keep-customers-in-the-last-mile.html"
+      ]
+    },
+    {
+      "pageCount": 4,
+      "samplePaths": [
+        "industries/auto-parts-delivery.html",
+        "industries/construction-supplies-delivery.html",
+        "industries/grocery-delivery.html"
+      ]
+    },
+    {
+      "pageCount": 4,
+      "samplePaths": [
+        "solutions/big-bulky-delivery.html",
+        "solutions/roadie-same-day.html",
+        "solutions/same-day.html"
+      ]
+    },
+    {
+      "pageCount": 3,
+      "samplePaths": [
+        "ecommerce-shipping.html",
+        "home-decor-delivery.html",
+        "rental-equipment-delivery.html"
+      ]
+    },
+    {
+      "pageCount": 3,
+      "samplePaths": [
+        "solutions/reverse-logistics-management.html",
+        "solutions/roadie-for-ups.html",
+        "solutions/roadiexd.html"
+      ]
+    },
+    {
+      "pageCount": 2,
+      "samplePaths": [
+        "home-improvement-delivery.html",
+        "pet-supply-delivery.html"
+      ]
+    },
+    {
+      "pageCount": 2,
+      "samplePaths": [
+        "resources/case-studies/author/roadie.html",
+        "resources/case-studies/tag/case-study.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "about/security.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "blog.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "careers.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "contact.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "hot-shot-delivery.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "index.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "industries/lost-luggage-delivery.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "industries/prescription-delivery.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "industries/retail-delivery.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "last-mile-delivery.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "press-releases.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "privacy.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "resources/case-studies/pinch-grow-reach-sales-local-healthcare-roadie.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "resources/case-studies.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "resources/white-papers/22003.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "resources.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "same-day-delivery-roi-calculator-roadie.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "sign-up-log-in.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "solutions/next-day-delivery.html"
+      ]
+    },
+    {
+      "pageCount": 1,
+      "samplePaths": [
+        "terms.html"
+      ]
+    }
+  ],
+  "risks": {
+    "midBodyScriptFlagCount": 99,
+    "csrFirstPaintNote": "React CSR paints after bundle; compare to static mirror in PARITY_QA.",
+    "externalDependenciesNote": "See docs/EXTERNAL_DEPENDENCIES.md"
+  },
+  "runtimeParity": {
+    "generatedAt": "2026-04-21T20:39:46.832Z",
+    "reportJson": "audit/runtime-parity-report.json",
+    "reportMd": "audit/RUNTIME_PARITY_REPORT.md",
+    "counts": {
+      "safeAsIs": 5,
+      "needsCompatShim": 65,
+      "needsJQueryOrWatch": 0,
+      "needsPageSpecific": 42,
+      "midBodyWatchOnly": 0,
+      "staticOnly": 0
+    },
+    "domContentLoadedShimImprovedCount": 107
+  },
+  "files": {
+    "mirroredHtmlDir": "mirrored-pages/",
+    "viteShellsDir": "vite-shells/",
+    "fragmentsGlob": "src/generated/fragments/",
+    "manifestsGlob": "src/generated/manifests/",
+    "lazyPageLoader": "src/generated/loadPage.ts (import.meta.glob)",
+    "tools": [
+      "tools/migration-inventory.mjs",
+      "tools/sync-marketing-public.mjs",
+      "tools/extract-page-artifacts.mjs",
+      "tools/gen-runtime-parity-report.mjs",
+      "tools/build-react-shells.mjs",
+      "tools/gen-migration-report.mjs",
+      "tools/flatten-react-dist-html.mjs",
+      "tools/rewrite-html-paths.mjs"
+    ],
+    "runtime": [
+      "src/pages/PreservedPage.tsx",
+      "src/legacy/loadLegacyManifest.ts",
+      "src/legacy/domContentLoadedCompat.ts",
+      "src/legacy/appendScript.ts",
+      "src/App.tsx",
+      "src/main.tsx",
+      "vite.react.config.ts"
+    ]
+  },
+  "verdict": {
+    "migratedShareOfCanonical": "112/112",
+    "remaining": "blog/** article corpus; filenames with URL-encoded query markers (U+FE56 etc.); hs-search-results; index-react.html",
+    "nextStep": "SSR/prerender to reduce first-paint flash; optional blog pipeline using the same extract+manifest flow"
+  }
+}

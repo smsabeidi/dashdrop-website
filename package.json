@@ -1,0 +1,35 @@
+{
+  "name": "roadie-mirror-pilot",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "inventory": "node tools/inventory-assets.mjs",
+    "sync:pilot": "node tools/sync-pilot-public.mjs",
+    "sync:marketing": "node tools/migration-inventory.mjs && node tools/sync-marketing-public.mjs",
+    "rewrite": "node tools/rewrite-html-paths.mjs",
+    "gen:homepage": "node tools/extract-homepage-fragment.mjs && node tools/build-index-react-shell.mjs",
+    "gen:pages": "node tools/migration-inventory.mjs && node tools/sync-marketing-public.mjs && node tools/extract-page-artifacts.mjs && node tools/gen-runtime-parity-report.mjs && node tools/build-react-shells.mjs && node tools/gen-migration-report.mjs",
+    "dev": "serve . -l 5173",
+    "build": "node tools/build-static.mjs",
+    "preview": "serve dist -l 4173",
+    "dev:vite": "vite",
+    "dev:react": "npm run gen:pages && vite --config vite.react.config.ts",
+    "build:react": "npm run gen:pages && vite build --config vite.react.config.ts && npm run flatten:react-dist",
+    "flatten:react-dist": "node tools/flatten-react-dist-html.mjs",
+    "preview:react": "serve dist-react -l 4174"
+  },
+  "dependencies": {
+    "html-react-parser": "^5.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "serve": "^14.2.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.0"
+  }
+}

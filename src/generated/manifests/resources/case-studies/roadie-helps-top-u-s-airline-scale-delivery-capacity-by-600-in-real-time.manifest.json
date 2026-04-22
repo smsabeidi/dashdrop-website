@@ -1,0 +1,136 @@
+{
+  "pageKey": "resources/case-studies/roadie-helps-top-u-s-airline-scale-delivery-capacity-by-600-in-real-time",
+  "sitePath": "resources/case-studies/roadie-helps-top-u-s-airline-scale-delivery-capacity-by-600-in-real-time.html",
+  "bodyAttrs": " class=\"  hs-content-id-186451184899 hs-blog-post hs-blog-id-188943836048   _themeClass\"",
+  "midBodyScriptRisk": true,
+  "executableScriptsBeforeFooter": 1,
+  "executableScriptCountInBody": 16,
+  "entries": [
+    {
+      "kind": "inline",
+      "source": "\n  window.addEventListener('DOMContentLoaded', function() {\n    // Find all links that point to \"#cookie-settings\"\n    var cookieLinks = document.querySelectorAll('a[href*=\"#cookie-settings\"]');\n\n    // Loop through them (in case you have it in mobile and desktop menus)\n    cookieLinks.forEach(function(link) {\n      link.addEventListener('click', function(event) {\n        // Stop the link from jumping the page\n        event.preventDefault(); \n        \n        // Open OneTrust\n        if (typeof OneTrust !== 'undefined') {\n            OneTrust.ToggleInfoDisplay();\n        } else {\n            console.log(\"OneTrust not loaded\");\n        }\n      });\n    });\n  });\n"
+    },
+    {
+      "kind": "external",
+      "src": "/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js",
+      "async": false,
+      "defer": true,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\ndocument.querySelectorAll(\".copy-link-button\").forEach(button => {\n    button.addEventListener(\"click\", async () => {\n        try {\n            await navigator.clipboard.writeText(window.location.href);\n\n            // Create tooltip element\n            let tooltip = document.createElement(\"span\");\n            tooltip.className = \"copy-tooltip\";\n            tooltip.textContent = \"Link copied!\";\n            button.appendChild(tooltip);\n\n            // Show tooltip and remove it after 1.5s\n            setTimeout(() => {\n                tooltip.remove();\n            }, 1000);\n        } catch (err) {\n            console.error(\"Failed to copy:\", err);\n        }\n    });\n});\n\n"
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar hsVars = hsVars || {}; hsVars['language'] = 'en';\n"
+    },
+    {
+      "kind": "external",
+      "src": "/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "//46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186575003823/1774535259854/template_jquery.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "//46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186575003821/1774535261293/template_aos.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "//46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186573512551/1774535260802/template_main.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "//46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/module_assets/1/186574315053/1748023808410/module_u4m-mega-menu.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "https://js.hsforms.net/forms/v2-legacy.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": "utf-8",
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/_hcms/forms/v2.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {
+        "data-hs-allowed": "true"
+      }
+    },
+    {
+      "kind": "inline",
+      "source": "\n        var options = {\n            portalId: '46302491',\n            formId: 'd7d26acd-fd95-43ee-b785-983bc0505ee9',\n            formInstanceId: '6815',\n            \n            pageId: '186451184899',\n            \n            region: 'na1',\n            \n            \n            \n            \n            pageName: \"Roadie helps top U.S. airline scale delivery capacity by 600% in real-time | Roadie\",\n            \n            \n            \n            inlineMessage: \"Thanks for submitting the form.\",\n            \n            \n            rawInlineMessage: \"Thanks for submitting the form.\",\n            \n            \n            hsFormKey: \"d6b433676fdb5734f047c21f67db1194\",\n            \n            \n            css: '',\n            target: '#hs_form_target_cta_row_',\n            \n            \n            \n            \n            \n            \n            \n            contentType: \"blog-post\",\n            \n            \n            \n            formsBaseUrl: '/_hcms/forms/',\n            \n            \n            \n            formData: {\n                cssClass: 'hs-form stacked hs-custom-form'\n            }\n        };\n\n        options.getExtraMetaDataBeforeSubmit = function() {\n            var metadata = {};\n            \n\n            if (hbspt.targetedContentMetadata) {\n                var count = hbspt.targetedContentMetadata.length;\n                var targetedContentData = [];\n                for (var i = 0; i < count; i++) {\n                    var tc = hbspt.targetedContentMetadata[i];\n                     if ( tc.length !== 3) {\n                        continue;\n                     }\n                     targetedContentData.push({\n                        definitionId: tc[0],\n                        criterionId: tc[1],\n                        smartTypeId: tc[2]\n                     });\n                }\n                metadata[\"targetedContentMetadata\"] = JSON.stringify(targetedContentData);\n            }\n\n            return metadata;\n        };\n\n        hbspt.forms.create(options);\n    "
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar _hsq = _hsq || [];\n_hsq.push([\"setContentType\", \"blog-post\"]);\n_hsq.push([\"setCanonicalUrl\", \"https:\\/\\/www.roadie.com\\/resources\\/case-studies\\/roadie-helps-top-u-s-airline-scale-delivery-capacity-by-600-in-real-time\"]);\n_hsq.push([\"setPageId\", \"186451184899\"]);\n_hsq.push([\"setContentMetadata\", {\n    \"contentPageId\": 186451184899,\n    \"legacyPageId\": \"186451184899\",\n    \"contentFolderId\": null,\n    \"contentGroupId\": 188943836048,\n    \"abTestId\": null,\n    \"languageVariantId\": 186451184899,\n    \"languageCode\": \"en\",\n    \n    \n}]);\n"
+    },
+    {
+      "kind": "external",
+      "src": "/hs/scriptloader/46302491.js",
+      "async": true,
+      "defer": true,
+      "type": "text/javascript",
+      "id": "hs-script-loader",
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar hsVars = {\n    render_id: \"4dd562b6-12c9-4318-a487-a1447d49a519\",\n    ticks: 1775531687372,\n    page_id: 186451184899,\n    \n    content_group_id: 188943836048,\n    portal_id: 46302491,\n    app_hs_base_url: \"https://app.hubspot.com\",\n    cp_hs_base_url: \"https://cp.hubspot.com\",\n    language: \"en\",\n    analytics_page_type: \"blog-post\",\n    scp_content_type: \"\",\n    \n    analytics_page_id: \"186451184899\",\n    category_id: 3,\n    folder_id: 0,\n    is_hubspot_user: false\n}\n"
+    },
+    {
+      "kind": "external",
+      "src": "/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js",
+      "async": false,
+      "defer": true,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    }
+  ]
+}

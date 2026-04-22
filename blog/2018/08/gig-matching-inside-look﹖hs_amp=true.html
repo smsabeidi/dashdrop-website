@@ -1,0 +1,224 @@
+<!doctype html>
+<html amp lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title>An Inside Look at Gig Matching | How We Pair Drivers with Gigs</title>
+    <link rel="canonical" href="gig-matching-inside-look.html" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <meta name="author" content="Justin Ratcliffe">
+
+    <meta name="description" content="Gig Matching takes hundreds of variables into account, such as vehicle size, time of day, past delivery preferences, and current driving status">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="generator" content="HubSpot">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "An Inside Look at Gig Matching | How We Pair Drivers with Gigs",
+        "datePublished": "2018-08-14T04:00:00Z",
+        "dateModified": "2025-04-17T06:57:36.270Z",
+        "mainEntityOfPage": "https://www.roadie.com/blog/2018/08/gig-matching-inside-look",
+        "author": {
+          "@type": "Person",
+          "name": "Justin Ratcliffe"
+        },
+        "image": {
+         "@type": "ImageObject",
+        
+          
+          "width": 866,
+          
+          
+          "height": 500,
+          
+          "url": "https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-1.jpg"
+        
+        },
+        "publisher" : {
+          "@type": "Organization",
+          "logo": {
+            "@type": "ImageObject",
+            
+            "url": "/hs/hsstatic/content_shared_assets/static-1.4092/img/default-amp-logo.png",
+            "width": 60,
+            "height": 60
+            
+          },
+          "name": "Blog"
+        }
+      }
+    </script>
+    <script async custom-element="amp-analytics" src="../../../../cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+    <noscript>
+      <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+    </noscript>
+  <style amp-custom>body {
+        color: #404040;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      .hs-page-width-normal {
+        box-sizing: content-box;
+        margin: 0 auto;
+        padding: 0 5vw 5vw;
+      }
+
+      .info {
+        font-size: 14px
+      }
+
+      h1 {
+        color: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 26px;
+        line-height: 1.5;
+        font-weight: 600;
+      }
+
+      h1 a {
+        color: #404040;
+      }
+
+      h2 {
+        color: #404040;
+        font-size: 22px;
+        line-height: 38px;
+      }
+
+      a {
+        color: #416bb3;
+        text-decoration: none;
+      }
+
+      .logo-header-text {
+        color: #1e1e1e;
+        font-size: 36px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 2.0;
+        font-weight: bold;
+        vertical-align: text-bottom;
+      }
+
+      .hs-page-width-normal {
+        padding: 5vw;
+      }
+
+      .iframe-placeholder {
+        background-color: #bbb;
+      }
+
+      .header-banner {
+        padding: 3vw 1vw;
+        border-color: #dcdcdc;
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        background-color: #ffffff;
+        color: #1e1e1e;
+        text-align: center;
+      }
+
+      .full-link {
+        text-align: center;
+      }
+
+      .full-link a {
+        border: 1px solid #dcdcdc;
+        background-color: transparent;
+        color: #416bb3;
+        cursor: pointer;
+        display: block;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 auto;
+        max-width: 200px;
+        padding: 11px 16px;
+        text-decoration: none;
+        width: 50%;
+      }
+
+    </style>
+    <script async src="../../../../cdn.ampproject.org/v0.js"></script>
+  </head>
+  <body>
+    <div class="row-fluid">
+      <div class="header-banner">
+        <a class="blog-link" href="../../../blog.html">
+        
+          <span class="logo-header-text">Blog | Roadie</span>
+         </a>
+      </div>  
+      <div class="hs-page-width-normal">
+        <div class="post-header">
+          <h1><a href="gig-matching-inside-look.html">An Inside Look at Gig Matching | How We Pair Drivers with Gigs</a></h1>
+        </div>
+        <div class="info">
+          <span> Written by <a class="author-link" href="../../author/justin-ratcliffe.html">Justin Ratcliffe</a> | Aug 14, 2018 4:00:00 AM </span>
+        </div>
+        <div class="blog-section">
+          <span><div class="featured-image lazyloaded">
+ <amp-img width="866" height="500" src="https://46302491.fs1.hubspotusercontent-na1.net/hub/46302491/hubfs/Imported_Blog_Media/New-Gig-Notification-Image-866x500.jpg?width=866&amp;height=500&amp;name=New-Gig-Notification-Image-866x500.jpg" class="attachment-size-bg size-size-bg wp-post-image lazyautosizes lazyloaded" alt="Roadie inside look at Gig Matching" srcset="https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-1.jpg 866w, https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-95x55.jpg 95w, https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-375x217.jpg 375w, https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-540x312.jpg 540w, https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-200x115.jpg 200w, https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-69x40.jpg 69w, https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-260x150.jpg 260w" layout="responsive"></amp-img>
+ <noscript>
+  <amp-img width="866" height="500" src="https://46302491.fs1.hubspotusercontent-na1.net/hub/46302491/hubfs/Imported_Blog_Media/New-Gig-Notification-Image-866x500.jpg?width=866&amp;height=500&amp;name=New-Gig-Notification-Image-866x500.jpg" class="attachment-size-bg size-size-bg wp-post-image" alt="Roadie inside look at Gig Matching" srcset="https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-1.jpg 866w, https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-95x55.jpg 95w, https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-375x217.jpg 375w, https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-540x312.jpg 540w, https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-200x115.jpg 200w, https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-69x40.jpg 69w, https://46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/Imported_Blog_Media/New-Gig-Notification-Image-260x150.jpg 260w" layout="responsive"></amp-img>
+ </noscript>
+</div> 
+<p><span>Every day, thousands of people are looking to have something delivered – sometimes within the day, sometimes within a few hours. Even more are hitting the road hoping to make an extra buck driving around their neighborhoods or on their way home from work. </span></p> 
+<p><span>At Roadie, we’re connecting those drivers with deliveries that need to go in the same direction. To do this, we use Gig Matching. It’s a system that strategically pairs Drivers </span><span>with deliveries, or multiple deliveries at once, to make every Roadie experience faster, easier, and more consistent from Gig to Gig.</span></p> 
+<div class="roadie-cta roadie-cta--border lazyload">
+ <div class="roadie-cta__inner lazyload">
+  <h3>Learn More in the Driver Dashboard</h3>
+  <div class="roadie-cta__button-wrap lazyload">
+   <a href="https://my.roadie.com/drive/sign-in">Sign In</a>
+  </div>
+ </div>
+</div> 
+<p><span>Gig Matching has already significantly improved delivery times and smoother operations. But many Drivers still want to know how the system works and how they’re matched with Gigs. So let’s take a peek behind the curtain.</span></p> 
+<h2>How Gig Matching Works</h2> 
+<p><span>Even at the technical level, Gig Matching is focused on our users. &nbsp;Once a Driver offers on a delivery, our matching algorithm takes hundreds of variables into account before pairing a Driver with a Gig. Think factors like vehicle size, time of day, past delivery preferences, and even what Drivers are currently delivering.</span></p> 
+<p><span>We use this information to make informed decisions about creating an efficient, flexible delivery system that works for our entire community. Senders don’t want to wait for a Driver who is 30 miles away, and a Driver doesn’t want to travel an extra 45 minutes off their route. Gig Matching helps us avoid situations like that. </span></p> 
+<p><span>All of this decision-making happens in real time. As delivery volume flexes and more Drivers offer on Gigs, the number of deliveries you’re matched with per day can vary. &nbsp;As part of our ongoing initiative to improve your driving experience, we’ll always continue to iterate and work to improve how often you’re matched with Gigs.</span></p> 
+<h2>How We Match Drivers with Gigs</h2> 
+<p><span>So what are the variables that the algorithm considers? </span><span>T</span><span>he difference between two Drivers may be very small, but still enough for our assignment program to make a match. </span><span>&nbsp;</span></p> 
+<h5><strong>Drivers are already on the way to the pickup location</strong></h5> 
+<p><b><span>It’s what our platform was built on, and we’re going to continue rewarding Drivers for it. If Drivers are already heading in the right direction or close to the pickup location, those Drivers have a higher likelihood of being matched compared to those who are farther away. </span><span><br> </span><span><br> </span><span>Keep in mind that proximity to the pickup location is only one factor that the system considers. </span>Waiting around at a pickup location will not guarantee that a Driver will be matched on a Gig.</b></p> 
+<h5><strong>Past driving experience</strong></h5> 
+<p><strong><span>Maybe you’re super speedy, only deliver in the morning, or drive a truck that can handle the&nbsp;big stuff. Whatever the case, Gig Matching takes your past driving experience into account before pairing you with a delivery.</span></strong><b></b></p> 
+<ul> 
+ <li><b>Ratings <span><br> </span><span>Above all, we value how our community treats each other. That means arriving on-time, being communicative, and treating each other with respect. If you have a five-star rating, you’re going to be rewarded for it. Consistent low ratings will prompt an internal review and will temporarily prevent you from being matched with Gigs.<br> </span></b></li> 
+ <li><strong>On-time rate<br> </strong><span>Because most Gigs require ASAP pickup and delivery, your on-time rate is crucial. When you consistently deliver on-time, the system takes notice and knows it can rely on you for urgent deliveries in the future.<br> </span></li> 
+ <li><b>Cancellations<br> <span>Think of each offer as a commitment to doing the Gig if you’re accepted. Anytime you cancel a Gig, it directly affects the Sender and our broader community. Having too many cancellations can prompt an internal review.<br> </span></b></li> 
+ <li><strong>Vehicle size</strong><br> <span>Before making a match, our system makes sure that the Gig can fit in your vehicle. Think of it this way: if you’re driving a sedan, you probably wouldn’t be able to move a couch.<br> </span></li> 
+ <li><strong>Gig types</strong><br> <span>What deliveries have you showed interest in recently? We’ll take a look and match you with Gigs that are similar to ones you’ve offered on or delivered in the past.</span></li> 
+</ul> 
+<h5>Current driving status</h5> 
+<p><b><span>What you’re currently driving also affects what Gigs you are matched on next. There’s a higher chance you’ll be matched with a Gig</span> <span>if you’re not currently driving a delivery or if another Gig is heading in the same direction as one of your current deliveries. </span></b></p> 
+<p><span>We’re excited to see how Gig Matching continues to help grow the Roadie community and make every </span><span>Driver</span> <span>experience</span><span> an even better one. If you have any feedback, reach out to us at </span><span><a href="mailto:feedback@roadie.com">feedback@roadie.com</a>.</span></p> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p><amp-analytics type="gtag"><script type="application/json">{
+  "vars": {
+    "gtag_id": "G-BBY915Q453",
+      "config": {
+      "G-BBY915Q453": {
+        "groups": "default"
+      }
+    }
+  }
+}</script></amp-analytics></span>
+        </div>
+        <div class="full-link">
+          <a href="gig-matching-inside-look.html">View full post</a>
+        </div>
+      </div>
+    </div>
+    
+    <amp-pixel src="https://track.hubspot.com/__ptq.gif?cd=SCREEN_COLOR_DEPTH-bit&cs=DOCUMENT_CHARSET&ln=BROWSER_LANGUAGE&sd=AVAILABLE_SCREEN_WIDTHxAVAILABLE_SCREEN_HEIGHT&v=1.1&iaa=1&k=1&ccu=CANONICAL_URL&r=DOCUMENT_REFERRER&ct=blog-post&t=An+Inside+Look+at+Gig+Matching+%7C+How+We+Pair+Drivers+with+Gigs&pi=186451183250&a=46302491&nc=true&cgi=186410792059&lvi=186451183250&pu=https%3A%2F%2Fwww.roadie.com%2Fblog%2F2018%2F08%2Fgig-matching-inside-look&lvc=en&vi=CLIENT_ID(hubspotutk)&ai=CLIENT_ID(amputk)">
+    </amp-pixel>
+    
+  </body>
+</html>

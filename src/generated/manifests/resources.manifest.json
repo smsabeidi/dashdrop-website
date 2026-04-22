@@ -1,0 +1,120 @@
+{
+  "pageKey": "resources",
+  "sitePath": "resources.html",
+  "bodyAttrs": " class=\"  hs-content-id-186734183466 hs-site-page page    _themeClass\"",
+  "midBodyScriptRisk": true,
+  "executableScriptsBeforeFooter": 1,
+  "executableScriptCountInBody": 14,
+  "entries": [
+    {
+      "kind": "inline",
+      "source": "\n  window.addEventListener('DOMContentLoaded', function() {\n    // Find all links that point to \"#cookie-settings\"\n    var cookieLinks = document.querySelectorAll('a[href*=\"#cookie-settings\"]');\n\n    // Loop through them (in case you have it in mobile and desktop menus)\n    cookieLinks.forEach(function(link) {\n      link.addEventListener('click', function(event) {\n        // Stop the link from jumping the page\n        event.preventDefault(); \n        \n        // Open OneTrust\n        if (typeof OneTrust !== 'undefined') {\n            OneTrust.ToggleInfoDisplay();\n        } else {\n            console.log(\"OneTrust not loaded\");\n        }\n      });\n    });\n  });\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/hsstatic/content-cwv-embed/static-1.1293/embed.js",
+      "async": false,
+      "defer": true,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar hsVars = hsVars || {}; hsVars['language'] = 'en';\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/hsstatic/cos-i18n/static-1.53/bundles/project.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186575003823/1774535259854/template_jquery.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186575003821/1774535261293/template_aos.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/template_assets/1/186573512551/1774535260802/template_main.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/module_assets/1/186574315053/1748023808410/module_u4m-mega-menu.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "external",
+      "src": "/46302491.fs1.hubspotusercontent-na1.net/hubfs/46302491/hub_generated/module_assets/1/186575003801/1745817237649/module_u4m-hero.min.js",
+      "async": false,
+      "defer": false,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\n\n\t\tconst wrapper = document.querySelector(\".resourceList\");\n\t\tconst pagination = document.querySelector(\".pagination\");\n\t\tconst items = Array.from(document.querySelectorAll(\".resourceCard\"));\n\t\tlet filteredItems = items;\n\t\tlet currPage = 1;\n\t\tconst typeSelect = document.querySelector(\"#typeSelect\");\n\t\tconst topicSelect = document.querySelector(\"#topicSelect\");\n\t\tconst searchField = document.querySelector(\".resourceInput\"); \n\n\n\n\n\n\t\tfunction filterItems(el, keyword, type, topic) {\n\t\t\tconst title = el.querySelector(\".restitle\").innerText.toLowerCase();\n\t\t\tconst hasKeyword = !keyword || title.includes(keyword.toLowerCase());\n\t\t\tconst isOfType = !type || el.classList.contains(type.toLowerCase());\n\t\t\tconst isOfTopic = !topic || el.classList.contains(topic.toLowerCase());\n\n\t\t\treturn hasKeyword && isOfType && isOfTopic;\n\t\t} \n\n\t\tfunction MainLogic() {\n\t\t\tconst keyword = searchField.value;\n\t\t\tconst type = typeSelect.value;\n\t\t\tconst topic = topicSelect.value;\n\n\t\t\tfilteredItems = items.filter(el => filterItems(el, keyword, type, topic));\n\t\t\tcurrPage = 1;\n\n\t\t\tif (filteredItems.length !== 0) {\n\t\t\t\tpagination.style.display = \"flex\";\n\t\t\t\tsetHTML(filteredItems);\n\t\t\t} else {\n\t\t\t\tpagination.style.display = \"none\";\n\t\t\t\twrapper.innerHTML = \"<p class='col statusCnt'>No results found.</p>\";\n\t\t\t}\n\t\t}\n\n\t\tfunction calculatePagination(totalItems, currentPage = 1, pageSize = 6, maxPages = 4) {\n\t\t\tlet startPage, endPage, totalPages = Math.ceil(totalItems / pageSize);\n\n\t\t\tif (currentPage < 1) {\n\t\t\t\tcurrentPage = 1;\n\t\t\t} else if (currentPage > totalPages) {\n\t\t\t\tcurrentPage = totalPages;\n\t\t\t}\n\n\t\t\tif (totalPages <= maxPages) {\n\t\t\t\tstartPage = 1;\n\t\t\t\tendPage = totalPages;\n\t\t\t} else {\n\t\t\t\tlet maxPagesBeforeCurrentPage = Math.floor(maxPages / 2);\n\t\t\t\tlet maxPagesAfterCurrentPage = Math.ceil(maxPages / 2) - 1;\n\n\t\t\t\tif (currentPage <= maxPagesBeforeCurrentPage) {\n\t\t\t\t\tstartPage = 1;\n\t\t\t\t\tendPage = maxPages;\n\t\t\t\t} else if (currentPage + maxPagesAfterCurrentPage >= totalPages) {\n\t\t\t\t\tstartPage = totalPages - maxPages + 1;\n\t\t\t\t\tendPage = totalPages;\n\t\t\t\t} else {\n\t\t\t\t\tstartPage = currentPage - maxPagesBeforeCurrentPage;\n\t\t\t\t\tendPage = currentPage + maxPagesAfterCurrentPage;\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tlet startIndex = (currentPage - 1) * pageSize;\n\t\t\tlet endIndex = Math.min(startIndex + pageSize - 1, totalItems - 1);\n\t\t\tlet pages = Array.from(Array(endPage + 1 - startPage).keys()).map(i => startPage + i);\n\n\t\t\treturn {\n\t\t\t\ttotalItems: totalItems,\n\t\t\t\tcurrentPage: currentPage,\n\t\t\t\tpageSize: pageSize,\n\t\t\t\ttotalPages: totalPages,\n\t\t\t\tstartPage: startPage,\n\t\t\t\tendPage: endPage,\n\t\t\t\tstartIndex: startIndex,\n\t\t\t\tendIndex: endIndex,\n\t\t\t\tpages: pages\n\t\t\t};\n\t\t} \n\n\n\t\tfunction setHTML(items) {\n\t\t\twrapper.innerHTML = \"\";\n\t\t\tpagination.innerHTML = \"\";\n\n\t\t\tconst {\n\t\t\t\ttotalItems,\n\t\t\t\tcurrentPage,\n\t\t\t\tpageSize,\n\t\t\t\ttotalPages,\n\t\t\t\tstartPage,\n\t\t\t\tendPage,\n\t\t\t\tstartIndex,\n\t\t\t\tendIndex,\n\t\t\t\tpages\n\t\t\t} = calculatePagination(items.length, currPage,9, 4);\n\n\t\t\tconst nav = document.createElement(\"nav\");\n\t\t\tnav.classList.add(\"relative\", \"z-0\", \"inline-flex\", \"rounded-md\", \"shadow-sm\", \"-space-x-px\");\n\n\t\t\tlet paginationHTML = \"\";\n\t\t\tpaginationHTML += `<button ${currentPage === 1 && \"disabled\"} class=\"${currentPage === 1 ? \"cursor-not-allowed\" : \"prev\"} prevnext prev-link\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"11\" viewBox=\"0 0 12 11\" fill=\"none\">\n\t\t\t\t\t\t<path d=\"M6.85403 0.145971L11.854 5.14597C11.9005 5.19241 11.9374 5.24755 11.9626 5.30825C11.9877 5.36895 12.0007 5.43401 12.0007 5.49972C12.0007 5.56543 11.9877 5.63049 11.9626 5.69119C11.9374 5.75189 11.9005 5.80704 11.854 5.85347L6.85403 10.8535C6.76021 10.9473 6.63296 11 6.50028 11C6.3676 11 6.24035 10.9473 6.14653 10.8535C6.05271 10.7597 6 10.6324 6 10.4997C6 10.367 6.05271 10.2398 6.14653 10.146L10.7934 5.49972L6.14653 0.853472C6.10007 0.807016 6.06322 0.751866 6.03808 0.69117C6.01294 0.630473 6 0.565419 6 0.499722C6 0.434024 6.01294 0.36897 6.03808 0.308273C6.06322 0.247577 6.10007 0.192427 6.14653 0.145971C6.19298 0.0995159 6.24813 0.0626669 6.30883 0.0375252C6.36953 0.0123835 6.43458 -0.000556946 6.50028 -0.000556946C6.56598 -0.000556946 6.63103 0.0123835 6.69173 0.0375252C6.75242 0.0626669 6.80757 0.0995159 6.85403 0.145971Z\" fill=\"#2E2E2E\"/>\n\t\t\t\t\t\t<path d=\"M0.854028 0.145971L5.85403 5.14597C5.90052 5.19241 5.9374 5.24755 5.96256 5.30825C5.98772 5.36895 6.00067 5.43401 6.00067 5.49972C6.00067 5.56543 5.98772 5.63049 5.96256 5.69119C5.9374 5.75189 5.90052 5.80704 5.85403 5.85347L0.854028 10.8535C0.760208 10.9473 0.63296 11 0.500278 11C0.367596 11 0.240348 10.9473 0.146528 10.8535C0.0527074 10.7597 0 10.6324 0 10.4997C0 10.367 0.0527074 10.2398 0.146528 10.146L4.7934 5.49972L0.146528 0.853472C0.100073 0.807016 0.0632225 0.751866 0.0380812 0.69117C0.0129398 0.630473 0 0.565419 0 0.499722C0 0.434024 0.0129398 0.36897 0.0380812 0.308273C0.0632225 0.247577 0.100073 0.192427 0.146528 0.145971C0.192983 0.0995159 0.248133 0.0626669 0.30883 0.0375252C0.369526 0.0123835 0.434581 -0.000556946 0.500278 -0.000556946C0.565975 -0.000556946 0.63103 0.0123835 0.691726 0.0375252C0.752423 0.0626669 0.807573 0.0995159 0.854028 0.145971Z\" fill=\"#2E2E2E\"/>\n\t\t</svg></button>`;\n\n\t\t\tpages.forEach(page => {\n\t\t\t\tpaginationHTML += currentPage === page\n\t\t\t\t\t? `<button class=\" active para gray_border black_color light_bg z-10 bg-indigo-50 border-indigo-500 text-indigo-600 relative inline-flex items-center px-4 py-2 border text-sm font-medium\" page=\"${page}\" disabled>${page}</button>`\n\t\t\t\t: `<button class=\"para gray_border black_color light_bg page bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium\" page=\"${page}\">${page}</button>`;\n\t\t\t});\n\n\t\t\tpaginationHTML += `<button ${currentPage === endPage && \"disabled\"} class=\"${currentPage === endPage ? \"cursor-not-allowed\" : \"next\"} prevnext\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"11\" viewBox=\"0 0 12 11\" fill=\"none\">\n\t\t\t\t\t<path d=\"M6.85403 0.145971L11.854 5.14597C11.9005 5.19241 11.9374 5.24755 11.9626 5.30825C11.9877 5.36895 12.0007 5.43401 12.0007 5.49972C12.0007 5.56543 11.9877 5.63049 11.9626 5.69119C11.9374 5.75189 11.9005 5.80704 11.854 5.85347L6.85403 10.8535C6.76021 10.9473 6.63296 11 6.50028 11C6.3676 11 6.24035 10.9473 6.14653 10.8535C6.05271 10.7597 6 10.6324 6 10.4997C6 10.367 6.05271 10.2398 6.14653 10.146L10.7934 5.49972L6.14653 0.853472C6.10007 0.807016 6.06322 0.751866 6.03808 0.69117C6.01294 0.630473 6 0.565419 6 0.499722C6 0.434024 6.01294 0.36897 6.03808 0.308273C6.06322 0.247577 6.10007 0.192427 6.14653 0.145971C6.19298 0.0995159 6.24813 0.0626669 6.30883 0.0375252C6.36953 0.0123835 6.43458 -0.000556946 6.50028 -0.000556946C6.56598 -0.000556946 6.63103 0.0123835 6.69173 0.0375252C6.75242 0.0626669 6.80757 0.0995159 6.85403 0.145971Z\" fill=\"#2E2E2E\"/>\n\t\t\t\t\t<path d=\"M0.854028 0.145971L5.85403 5.14597C5.90052 5.19241 5.9374 5.24755 5.96256 5.30825C5.98772 5.36895 6.00067 5.43401 6.00067 5.49972C6.00067 5.56543 5.98772 5.63049 5.96256 5.69119C5.9374 5.75189 5.90052 5.80704 5.85403 5.85347L0.854028 10.8535C0.760208 10.9473 0.63296 11 0.500278 11C0.367596 11 0.240348 10.9473 0.146528 10.8535C0.0527074 10.7597 0 10.6324 0 10.4997C0 10.367 0.0527074 10.2398 0.146528 10.146L4.7934 5.49972L0.146528 0.853472C0.100073 0.807016 0.0632225 0.751866 0.0380812 0.69117C0.0129398 0.630473 0 0.565419 0 0.499722C0 0.434024 0.0129398 0.36897 0.0380812 0.308273C0.0632225 0.247577 0.100073 0.192427 0.146528 0.145971C0.192983 0.0995159 0.248133 0.0626669 0.30883 0.0375252C0.369526 0.0123835 0.434581 -0.000556946 0.500278 -0.000556946C0.565975 -0.000556946 0.63103 0.0123835 0.691726 0.0375252C0.752423 0.0626669 0.807573 0.0995159 0.854028 0.145971Z\" fill=\"#2E2E2E\"/>\n\t\t</svg></button>`;\n\n\t\t\tnav.innerHTML = paginationHTML;\n\t\t\tpagination.append(nav);\n\n\t\t\tconst start = (currentPage - 1) * pageSize;\n\t\t\tconst end = currentPage * pageSize;\n\t\t\titems.slice(start, end).forEach(el => {\n\t\t\t\twrapper.append(el);\n\t\t\t});\n\t\t} \n\t\ttypeSelect.addEventListener(\"change\", f => {\n\t\t\tf.preventDefault();\n\t\t\tMainLogic(); \n\t\t}); \n\n\t\ttopicSelect.addEventListener(\"change\", f => {\n\t\t\tf.preventDefault();\n\t\t\tMainLogic(); \n\t\t}); \n\n\t\tsearchField.addEventListener(\"keyup\", g => {\n\t\t\tg.preventDefault();\n\t\t\tMainLogic(); \n\t\t}); \n\n\n\t\tdocument.addEventListener(\"click\", e => {  \n\t\t\tconst $this = e.target; \n\t\t\tif ($this.classList.contains(\"page\")) {\n\t\t\t\tconst pageNumber = $this.getAttribute(\"page\");\n\t\t\t\tif (pageNumber) {\n\t\t\t\t\tcurrPage = parseInt(pageNumber);\n\t\t\t\t\tsetHTML(filteredItems); \n\t\t\t\t}\n\t\t\t}\n\t\t\tif ($this.classList.contains(\"next\")) {\n\t\t\t\tcurrPage += 1;\n\t\t\t\tsetHTML(filteredItems); \n\t\t\t}\n\t\t\tif ($this.classList.contains(\"prev\")) {\n\t\t\t\tcurrPage -= 1;\n\t\t\t\tsetHTML(filteredItems); \n\t\t\t} \n\t\t});\n\n\t\tsetHTML(filteredItems); \n\n\n\t"
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar _hsq = _hsq || [];\n_hsq.push([\"setContentType\", \"standard-page\"]);\n_hsq.push([\"setCanonicalUrl\", \"https:\\/\\/www.roadie.com\\/resources\"]);\n_hsq.push([\"setPageId\", \"186734183466\"]);\n_hsq.push([\"setContentMetadata\", {\n    \"contentPageId\": 186734183466,\n    \"legacyPageId\": \"186734183466\",\n    \"contentFolderId\": null,\n    \"contentGroupId\": null,\n    \"abTestId\": null,\n    \"languageVariantId\": 186734183466,\n    \"languageCode\": \"en\",\n    \n    \n}]);\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/scriptloader/46302491.js",
+      "async": true,
+      "defer": true,
+      "type": "text/javascript",
+      "id": "hs-script-loader",
+      "charset": null,
+      "attribs": {}
+    },
+    {
+      "kind": "inline",
+      "source": "\nvar hsVars = {\n    render_id: \"69f8122d-7002-4575-8a1a-ebbf457cf61c\",\n    ticks: 1775531692987,\n    page_id: 186734183466,\n    \n    content_group_id: 0,\n    portal_id: 46302491,\n    app_hs_base_url: \"https://app.hubspot.com\",\n    cp_hs_base_url: \"https://cp.hubspot.com\",\n    language: \"en\",\n    analytics_page_type: \"standard-page\",\n    scp_content_type: \"\",\n    \n    analytics_page_id: \"186734183466\",\n    category_id: 1,\n    folder_id: 0,\n    is_hubspot_user: false\n}\n"
+    },
+    {
+      "kind": "external",
+      "src": "hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js",
+      "async": false,
+      "defer": true,
+      "type": null,
+      "id": null,
+      "charset": null,
+      "attribs": {}
+    }
+  ]
+}
